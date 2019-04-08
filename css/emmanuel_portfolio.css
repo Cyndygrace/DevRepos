@@ -99,6 +99,9 @@ h1{
     text-align: center;
     padding: 2em;
 }
+.inner-box{
+    text-align: center;
+}
 .inner-box > .inner-left > h1{
     font-size: 150px;
     text-align: center;
@@ -120,4 +123,20 @@ h1{
 }
 .box *{
     /* border: 1px solid aquamarine */
+}
+.inner-box.b i.fa-google{
+    font-size: 150px;
+    line-height: 250px;
+    color: white;
+}
+.inner-box.c .inner-right i, .inner-box.c .inner-left i{
+    color: white;
+    line-height: 250px;
+    font-size: 150px;
+}
+.inner-box.c .inner-right{
+    background-color: #D640D3;
+}
+.inner-box.c .inner-left{
+    background-color: #6B41AF;
 }
