@@ -2,3 +2,19 @@ body{
     background-color: #000000;
     color: #ffffff;
     margin: 0;
+}
+.profileimg{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    padding: 40px
+}
+.site-text{
+    margin: 20px;
+    float: right;
+    width: 40%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+
+}
