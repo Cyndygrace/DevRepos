@@ -150,3 +150,10 @@ width:70%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
+footer .social-button .fab{
+    font-size: 30px;
+    margin:10px;
+}
+footer .social-button .fab:hover{
+    color: #4497b9;
+}
