@@ -22,10 +22,10 @@ article {
     text-align: center;
 }
 article img{
-    width: 70%;
+    width: 340px;
     border-radius: 50%;
     margin: auto;
-    height: 420px;
+    height: 340px;
 }
 article div p span{
     padding: 1px;
