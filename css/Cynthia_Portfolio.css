@@ -6,6 +6,18 @@ background: linear-gradient(to left, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Fi
     color: #ffffff;
     margin: 0;
 }
+.container{
+ text-align: center;
+}
+.container h1 {
+    padding-left: 180px;
+    font-family: monospace;
+    color: #ff9595;
+    text-decoration: underline;
+}
+.container a:hover{
+    color: #501212;
+}
 .profileimg{
     border-radius: 50%;
     height: 500px;
