@@ -60,3 +60,10 @@ a{
     font-family: 'Yatra One', cursive;
     color: #ffffffe0;
 }
+.clearfix{
+    clear: both;
+}
+.text-center.site-footer{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
