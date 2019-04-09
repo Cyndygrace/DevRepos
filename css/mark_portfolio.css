@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    background: #c5b08e;
+}
+.container{
+    margin:0 10%;
+    background: #ffffff;
+}
+.menu-list li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 30px;
+    position:relative;
+    z-index: 1;
+}
+.menu-list li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    width:15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left:2%;
+}
+nav{
+    position: relative;
+    padding: 20px 20px 20px 10px;
+    text-align: right;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+}
+.menu-list li a:hover{
+    color:  #0085ba;
+}
+/* Interest section */
+.interest-section .grid{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+.interest-section{
+    margin-top: 60px;
+    text-align: center;
+}
+.interest-section h3{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2px;
+}
+.interest-section p{
+    letter-spacing: 1px;
+}
+
+.about-section{
+    margin-top:60px;
+}
+.col-container {
+    display: flex;
+    width: 100%;
+  }
+  .col {
+    flex: 1;
+    padding: 16px;
+  }
+  .col2 {
+    flex: 2;
+    padding: 16px;
+  }
+  .col.my-image{
+    background-image: url(../image/IMG_20160113_111054.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+.col2.my-about{
+    padding:30px;
+    padding-right: 60px;
+}
+.col2 .about{
+    margin-top:50px;
+}
+.col2 .about p{
+  margin-top:20px;
+}
+.skill-section{
+    margin:60px 80px 30px; 
+}
+.skill-info{
+    padding:0 2%;
+}
+.skill h3{
+    margin-bottom: 10px;
+}
+.skill-info p{
+    margin-bottom: 15px;
+}
+button{
+    padding: 15px;
+    background: #4497b9;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.bar{
+    display: inline-block;
+    height: 30px;
+}
+.percentage{
+    height:30px;
+}
+.bar.bar-andr {
+background: #4497b9;
+width:70%; 
+}
+.bar-html {
+    background: #4497b9;
+    width:95%; 
+    }
+.bar-javascript {
+    background: #4497b9;
+    width:75%; 
+    }
+.bar-css {
+    background: #4497b9;
+    width:80%; 
+    }
+.skill-bar-text{
+    text-align: right;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+footer .social-button .fab{
+    font-size: 30px;
+    margin:10px;
+}
+footer .social-button .fab:hover{
+    color: #4497b9;
+}
