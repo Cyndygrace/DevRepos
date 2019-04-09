@@ -1,7 +1,8 @@
 body{
     background: url('./image/background-image.jpg');
     background-position: 62% 6%;
-    color: #d87aeebf;
+    /* color: #d87aeebf; */
+    color: rgb(216,122,238,0.75);
     margin: 0px;
 }
 .wrapper{
@@ -28,7 +29,8 @@ article img{
 }
 article div p span{
     padding: 1px;
-    border: 1px solid #79575ec2;
+    /* border: 1px solid #79575ec2; */
+    border: 1px solid rgb(121,87,94,0.8);
     border-radius: 4px;
     transition: padding, 0.5s;
 }
