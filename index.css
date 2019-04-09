@@ -30,10 +30,10 @@ article div p span{
     padding: 1px;
     border: 1px solid #79575ec2;
     border-radius: 4px;
-    transition: padding, 2s;
+    transition: padding, 0.5s;
 }
 article div p span:hover{
-    padding: 1.5px;
+    padding: 7px;
     border: 1px solid #79575e;
 }
 
