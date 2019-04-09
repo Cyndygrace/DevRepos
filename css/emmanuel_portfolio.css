@@ -71,11 +71,15 @@ h1{
     width: 100%;
     background-color: black;
 }
+
 .a{
     background-color: #00ACEE;
 }
 .b{
     background-color: #000;
+}
+.b:hover{
+    background-color: rgba(32, 32, 32, 0.562);
 }
 .c{
     background-color: #D640D3;
@@ -90,9 +94,18 @@ h1{
 .inner-left{
     background-color: #F9CA00;
     float: left;
+    transition: background-color, 1s;
+}
+.inner-left:hover{
+    background-color: rgb(217, 228, 125)
 }
 .inner-right{
     background-color: #00ACEE;
+    float: right;
+    transition: background-color, 1s;
+}
+.inner-right:hover{
+    background-color: rgb(71, 194, 243);
     float: right;
 }
 .footer{
@@ -101,6 +114,7 @@ h1{
 }
 .inner-box{
     text-align: center;
+    transition: background-color, 1s;
 }
 .inner-box > .inner-left > h1{
     font-size: 150px;
@@ -137,6 +151,12 @@ h1{
 .inner-box.c .inner-right{
     background-color: #D640D3;
 }
+.inner-box.c .inner-right:hover{
+    background-color: rgb(240, 114, 238);
+}
 .inner-box.c .inner-left{
     background-color: #6B41AF;
+}
+.inner-box.c .inner-left:hover{
+    background-color: rgb(167, 126, 233);
 }
