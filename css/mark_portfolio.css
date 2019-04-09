@@ -113,3 +113,33 @@ button{
     outline: none;
     color: #fff;
 }
+.bar{
+    display: inline-block;
+    height: 30px;
+}
+.percentage{
+    height:30px;
+}
+.bar.bar-andr {
+background: #4497b9;
+width:70%; 
+}
+.bar-html {
+    background: #4497b9;
+    width:95%; 
+    }
+.bar-javascript {
+    background: #4497b9;
+    width:75%; 
+    }
+.bar-css {
+    background: #4497b9;
+    width:80%; 
+    }
+.skill-bar-text{
+    text-align: right;
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
