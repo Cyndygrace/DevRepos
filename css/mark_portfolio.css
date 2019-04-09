@@ -96,7 +96,7 @@ nav{
     padding-right: 60px;
 }
 .col2 .about{
-    margin-top:50px;
+    margin-top:30px;
 }
 .col2 .about p{
   margin-top:20px;
@@ -129,7 +129,7 @@ button{
 }
 .bar.bar-andr {
 background: #4497b9;
-width:70%; 
+width:85%; 
 }
 .bar-html {
     background: #4497b9;
@@ -137,7 +137,7 @@ width:70%;
     }
 .bar-javascript {
     background: #4497b9;
-    width:75%; 
+    width:100%; 
     }
 .bar-css {
     background: #4497b9;
