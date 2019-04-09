@@ -1,7 +1,22 @@
 body{
-    background-color: #000000;
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #ffffff;
     margin: 0;
+}
+.container{
+ text-align: center;
+}
+.container h1 {
+    padding-left: 180px;
+    font-family: monospace;
+    color: #ff9595;
+    text-decoration: underline;
+}
+.container a:hover{
+    color: #501212;
 }
 .profileimg{
     border-radius: 50%;
@@ -14,7 +29,7 @@ body{
     float: right;
     width: 40%;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace, 'Courier New', Courier;
     padding: 50px;
 
 }
@@ -23,7 +38,7 @@ body{
     height: 57px;
 }
 .formStyle { 
-    background-color: #c5ebd5;
+    background-color: #ffffff;
     padding: 10px; 
     width: 400px; 
     margin-bottom: 20px; 
@@ -36,23 +51,25 @@ body{
     font-size: 1em;
     font-weight: 100;
     color: #ffffff;
+    border-radius: 3px;
   }
   
   .formButton {
-      float: right;
-      background-color:#ffffff;
-      display:inline-block;
-      color:#27ae60;
-      font-size:28px;
-      font-weight: 500;
-      padding:6px 24px;
-      margin-top: 15px;
-      margin-right: 120px;
-      text-decoration:none;
+    border-radius: 6px;
+    float: right;
+    background-color: #3775ad;
+    display: inline-block;
+    color: #f9fbfa;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 6px 24px;
+    margin-top: 15px;
+    margin-right: 120px;
+    text-decoration: none
   }
   
   .formButton:hover {
-      background-color: #27ae60;
+      background-color: #20517d;
     color:#ffffff;
   }
   
