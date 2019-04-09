@@ -6,6 +6,13 @@
     box-sizing: border-box;
     letter-spacing: 1px;
 }
+body{
+    background: #c5b08e;
+}
+.container{
+    margin:0 10%;
+    background: #ffffff;
+}
 .menu-list li a{
     margin-right: 10px;
     text-decoration: none;
